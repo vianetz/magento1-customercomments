@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Vianetz_CustomerComments>
+            <version>1.0.0</version>
+        </Vianetz_CustomerComments>
+    </modules>
+    <global>
+        <helpers>
+            <vianetz_customercomments>
+                <class>Vianetz_CustomerComments_Helper</class>
+            </vianetz_customercomments>
+        </helpers>
+        <resources>
+            <vianetz_customercomments_setup>
+                <setup>
+                    <module>Vianetz_CustomerComments</module>
+                    <class>Mage_Customer_Model_Entity_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </vianetz_customercomments_setup>
+        </resources>
+    </global>
+</config>

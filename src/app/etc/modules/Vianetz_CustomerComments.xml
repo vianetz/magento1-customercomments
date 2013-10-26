@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Vianetz_CustomerComments>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Vianetz_CustomerComments>
+	</modules>
+</config>
