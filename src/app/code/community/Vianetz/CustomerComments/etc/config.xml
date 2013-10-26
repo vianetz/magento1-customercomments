@@ -22,5 +22,19 @@
                 </connection>
             </vianetz_customercomments_setup>
         </resources>
+        <blocks>
+            <vianetz_customercomments>
+                <class>Vianetz_CustomerComments_Block</class>
+            </vianetz_customercomments>
+        </blocks>
     </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <vianetz_customercomments>
+                    <file>vianetz_customercomments.xml</file>
+                </vianetz_customercomments>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

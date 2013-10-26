@@ -6,7 +6,7 @@ $installer->startSetup();
 
 $installer->addAttribute(
     'customer',
-    'vianetz_customercomments_internal_comment',
+    'vianetz_cc_internal_comment',
     array(
         'group'                => 'Default',
         'type'                 => 'text',
@@ -18,7 +18,12 @@ $installer->addAttribute(
         'visible_on_front'     => 1,
         'used_for_price_rules' => 0,
         'adminhtml_only'       => 1,
+        'comment'              => 'Insert comments for internal use here.'
     )
 );
+
+Mage::getSingleton('eav/config')->getAttribute('customer', 'vianetz_cc_internal_comment')
+    ->setData('used_in_forms', array('adminhtml_customer'))
+    ->save();
 
 $installer->endSetup();

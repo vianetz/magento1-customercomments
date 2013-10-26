@@ -1,0 +1,10 @@
+<layout version="0.1.0">
+  <adminhtml_customer_edit>
+     <reference name="customer_edit_tabs">
+        <action method="addTab">
+          <name>vianetz_customercomments_tab_comments</name>
+          <block>vianetz_customercomments/adminhtml_customer_tab_comments</block>
+        </action>
+     </reference>
+  </adminhtml_customer_edit>
+</layout>
