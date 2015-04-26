@@ -3,6 +3,9 @@ Version 1.0.0
 
 The CustomerComments extension for Magento adds an additional attribute to the customer entity that allows for internal comments in the backend.
 
+### Compatibility ###
+Magento > 1.7.x
+
 ### Installation ###
 
 Just upload, refresh cache and you will see the attribute on the customer form in backend.
