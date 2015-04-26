@@ -1,5 +1,5 @@
-Vianetz CustomerComments Extension
-==================================
+Vianetz CustomerComments Extension for Magento
+==============================================
 
 Facts
 -----
@@ -32,8 +32,6 @@ For installation notes please see also http://www.vianetz.com/en/faq/how-to-inst
 4. Clear the Magento cache (and related caches like APC if available)
 5. Logout from the admin panel and then login again
 6. Enable the Magento compilation feature (if it was activated before): System->Tools->Compiler
-7. Configure and activate the extension under System - Configuration - Vianetz AdvancedInvoiceLayout.
-8. If you want to save invoices in file system, the folder media/invoices needs write permissions for your webserver user.
 
 As an alternative you can install the module via modman.
 Please find more information about that installation method at https://github.com/colinmollenhour/modman
